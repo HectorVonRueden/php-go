@@ -1,5 +1,5 @@
-# Usage:
-#	Default config:
+#*Usage:
+#	Default#config:
 #		make
 #	Use a specific php-config:
 #		PHPCFG=/usr/bin/php-config72 make
@@ -50,3 +50,4 @@ clean:
 	rm -f $(GOPATH)/pkg/$(GOOS)_$(GOARCH)/github.com/kitech/php-go/zend.a
 	rm -f $(GOPATH)/pkg/$(GOOS)_$(GOARCH)/github.com/kitech/php-go/phpgo.a
 	rm -f hello.so
+ 
